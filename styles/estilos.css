@@ -96,3 +96,64 @@ body {
     color: #fff;
     font-weight: 500;
 }
+/* estructura */
+
+.contenido {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+}
+
+/* ayuda */
+
+.ayuda {
+    padding: 1rem 1.25rem;
+    border: 1px solid #b7c0cc;
+    border-radius: 0.75rem;
+    background-color: #fff;
+}
+
+.ayuda__titulo {
+    margin: 0 0 1rem;
+    font-size: 1.1rem;
+    color: #12355b;
+}
+
+.ayuda__lista {
+    display: grid;
+    gap: 1rem;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ayuda__paso {
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+    align-items: start;
+    gap: 0.75rem;
+}
+
+.ayuda__numero {
+    display: grid;
+    place-items: center;
+
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+
+    font-weight: bold;
+    color: #fff;
+    background-color: #12355b;
+}
+
+.ayuda__texto {
+    margin: 0;
+}
