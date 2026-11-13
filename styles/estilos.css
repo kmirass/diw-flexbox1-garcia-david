@@ -10,7 +10,7 @@
 
     font-family: 'Inter Bold', sans-serif;
     color: #fff;
-    background-color: #19385b;
+    background-color: #12355b;
 }
 
 .cabecera__marca {
@@ -42,18 +42,21 @@
 
 /* contenido */
 
-.principal,
-h1 {
-    font-family: 'Inter Bold', sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    color: #19385b;
-
-    text-align: center;
+.principal {
     flex: 1;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 2rem;
 }
 
-
+h1 {
+    margin: 0 0 1rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #12355b;
+}
 
 body {
     display: flex;
@@ -61,6 +64,10 @@ body {
 
     min-height: 100vh;
     margin: 0;
+
+    font-family: 'Inter', sans-serif;
+    color: #1b1b1b;
+    background-color: #f4f6f9;
 }
 
 /* footer */
@@ -75,7 +82,7 @@ body {
 
     font-family: 'Inter Bold', sans-serif;
     color: #fff;
-    background-color: #19385b;
+    background-color: #12355b;
 }
 
 .pie__lista {
