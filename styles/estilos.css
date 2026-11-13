@@ -38,6 +38,7 @@
 .cabecera__marca {
     font-size: 1.5rem;
     font-weight: bold;
+    text-shadow: 0 0.0625rem 0.125rem var(--color-sombra-texto);
 }
 
 .menu__lista {
@@ -139,6 +140,7 @@ body {
     border: 1px solid var(--color-borde-tarjeta);
     border-radius: 0.75rem;
     background-color: var(--color-fondo-tarjeta);
+    box-shadow: 0 0.125rem 0.5rem var(--color-sombra);
 }
 
 .ayuda__titulo {
@@ -189,6 +191,7 @@ body {
     border: 1px solid var(--color-borde-tarjeta);
     border-radius: 0.75rem;
     background-color: var(--color-fondo-tarjeta);
+    box-shadow: 0 0.125rem 0.5rem var(--color-sombra);
 }
 
 .grupo__titulo {
@@ -335,6 +338,7 @@ body {
 .boton--principal {
     color: var(--color-texto-inverso);
     background-color: var(--color-primario);
+    box-shadow: 0 0.125rem 0.25rem var(--color-sombra);
     border-color: var(--color-primario);
 }
 
