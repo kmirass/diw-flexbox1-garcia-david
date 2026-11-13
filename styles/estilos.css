@@ -193,6 +193,11 @@ body {
     font-weight: bold;
     color: var(--color-texto-inverso);
     background-color: var(--color-primario);
+    transition: transform 0.2s;
+}
+
+.ayuda__paso:hover .ayuda__numero {
+    transform: scale(1.1);
 }
 
 .ayuda__texto {
