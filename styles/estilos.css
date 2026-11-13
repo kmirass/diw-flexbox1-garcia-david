@@ -20,6 +20,27 @@
     --color-sombra-texto: rgb(0 0 0 / 0.45);
 }
 
+/* salto */
+
+.salto {
+    position: absolute;
+    top: -4rem;
+    left: 0.5rem;
+    z-index: 1;
+
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-texto-inverso);
+    background-color: var(--color-primario);
+}
+
+.salto:focus {
+    top: 0.5rem;
+}
+
 /* navbar */
 
 .cabecera {
