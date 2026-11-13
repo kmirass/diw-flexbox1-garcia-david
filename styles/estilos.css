@@ -330,3 +330,78 @@ a:focus-visible,
 .pie__enlace:focus-visible {
     outline-color: #ffd166;
 }
+
+/* formulario (desde 40em) */
+
+@media (min-width: 40em) {
+    .grupo__campos {
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: 1rem 1.5rem;
+    }
+
+    .grupo--personales .grupo__campos {
+        grid-template-areas:
+            "nombre nombre apellidos apellidos apellidos apellidos"
+            "correo correo correo telefono telefono telefono"
+            "nacimiento nacimiento . . . .";
+    }
+
+    .grupo--academicos .grupo__campos {
+        grid-template-areas:
+            "ciclo ciclo ciclo curso curso curso"
+            "nota nota idiomas idiomas idiomas idiomas";
+    }
+
+    .grupo--destino .grupo__campos {
+        grid-template-areas:
+            "pais pais pais incorporacion incorporacion incorporacion"
+            "duracion duracion duracion duracion duracion duracion";
+    }
+
+    .grupo--motivacion .grupo__campos {
+        grid-template-areas:
+            "carta carta carta carta carta carta"
+            "curriculum curriculum curriculum curriculum curriculum curriculum";
+    }
+
+    .campo--nombre { grid-area: nombre; }
+    .campo--apellidos { grid-area: apellidos; }
+    .campo--correo { grid-area: correo; }
+    .campo--telefono { grid-area: telefono; }
+    .campo--nacimiento { grid-area: nacimiento; }
+    .campo--ciclo { grid-area: ciclo; }
+    .campo--curso { grid-area: curso; }
+    .campo--nota { grid-area: nota; }
+    .campo--idiomas { grid-area: idiomas; }
+    .campo--pais { grid-area: pais; }
+    .campo--incorporacion { grid-area: incorporacion; }
+    .campo--duracion { grid-area: duracion; }
+    .campo--carta { grid-area: carta; }
+    .campo--curriculum { grid-area: curriculum; }
+
+    .campo__pie {
+        grid-template-columns: 1fr auto;
+        gap: 1rem;
+    }
+
+    .campo__pie .campo__ayuda:last-child {
+        text-align: right;
+    }
+
+    .botonera {
+        grid-template-columns: auto 1fr auto auto;
+    }
+
+    .boton--secundario {
+        grid-column: 3;
+    }
+}
+
+/* estructura (desde 56em) */
+
+@media (min-width: 56em) {
+    .contenido {
+        grid-template-columns: minmax(0, 1fr) 20rem;
+        align-items: start;
+    }
+}
