@@ -338,6 +338,7 @@ body {
     font: inherit;
     font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
 }
 
 .boton--borrar {
@@ -356,7 +357,31 @@ body {
     color: var(--color-texto-inverso);
     background-color: var(--color-primario);
     box-shadow: 0 0.125rem 0.25rem var(--color-sombra);
-    border-color: var(--color-primario);
+}
+
+.boton:hover,
+.boton:focus-visible {
+    transform: translateY(-0.125rem);
+}
+
+.boton--borrar:hover,
+.boton--borrar:focus-visible,
+.boton--secundario:hover,
+.boton--secundario:focus-visible {
+    background-color: var(--color-fondo-hover);
+}
+
+.boton--principal:hover,
+.boton--principal:focus-visible {
+    background-color: var(--color-primario-hover);
+}
+
+.boton:active {
+    transform: none;
+}
+
+.boton--principal:active {
+    box-shadow: 0 0 0.0625rem var(--color-sombra);
 }
 
 /* foco */
