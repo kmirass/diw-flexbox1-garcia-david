@@ -1,3 +1,41 @@
+/*
+    paleta (los valores se declaran una sola vez en :root, con nombres que indican su papel)
+    --color-primario ........... cabecera, pie, titulos, boton principal
+    --color-primario-claro ..... extremo claro del degradado
+    --color-primario-hover ..... boton principal al pasar el raton
+    --color-fondo-pagina ....... fondo de la pagina
+    --color-fondo-tarjeta ...... fondo de tarjetas, controles y botones claros
+    --color-fondo-hover ........ botones claros al pasar el raton
+    --color-texto .............. texto
+    --color-texto-ayuda ........ texto de ayuda
+    --color-texto-inverso ...... texto sobre fondo oscuro
+    --color-acento ............. enlace seleccionado del menu
+    --color-borde-control ...... borde de controles
+    --color-borde-tarjeta ...... borde de tarjetas
+    --color-invalido ........... campo invalido
+    --color-foco ............... contorno de foco
+    --color-foco-oscuro ........ contorno de foco sobre fondo oscuro
+    --color-sombra ............. sombra de bloques y boton
+    --color-sombra-texto ....... sombra del texto de la marca
+
+    indice
+    1. variables
+    2. salto
+    3. navbar
+    4. contenido
+    5. footer
+    6. estructura
+    7. ayuda
+    8. grupos
+    9. campos
+    10. telefono
+    11. opciones
+    12. botonera
+    13. foco
+    14. formulario (desde 40em)
+    15. estructura (desde 56em)
+*/
+
 /* variables */
 
 :root {
